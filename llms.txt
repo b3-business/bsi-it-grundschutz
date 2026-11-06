@@ -16,7 +16,7 @@
 
 - [ISMS Sicherheitsmanagement](isms/README.md): Übersicht über den einzigen IT-Grundschutz-Baustein der Kategorie „ISMS Sicherheitsmanagement“ mit Titel und Verweis auf den Baustein.
 - [ORP Organisation und Personal](orp/README.md): Übersicht über die 5 IT-Grundschutz-Bausteine der Kategorie „ORP Organisation und Personal“ mit Titel und Verweisen auf die einzelnen Bausteine.
-- [CON Konzepte und Vorgehensweisen](con/README.md): Übersicht über die 9 IT-Grundschutz-Bausteine der Kategorie „CON Konzepte und Vorgehensweisen“ mit Titel und Verweisen auf die einzelnen Bausteine.
+- [CON Konzepte und Vorgehensweisen](_con/README.md): Übersicht über die 9 IT-Grundschutz-Bausteine der Kategorie „CON Konzepte und Vorgehensweisen“ mit Titel und Verweisen auf die einzelnen Bausteine.
 - [OPS Betrieb](ops/README.md): Übersicht über die 14 IT-Grundschutz-Bausteine der Kategorie „OPS Betrieb“ mit Titel und Verweisen auf die einzelnen Bausteine.
 - [DER Detektion und Reaktion](der/README.md): Übersicht über die 7 IT-Grundschutz-Bausteine der Kategorie „DER Detektion und Reaktion“ mit Titel und Verweisen auf die einzelnen Bausteine.
 - [APP Anwendungen](app/README.md): Übersicht über die 20 IT-Grundschutz-Bausteine der Kategorie „APP Anwendungen“ mit Titel und Verweisen auf die einzelnen Bausteine.

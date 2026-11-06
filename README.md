@@ -7,6 +7,11 @@ siteIndex: ./llms.txt
 
 Das IT-Grundschutz-Kompendium des BSI (Edition 2023, 6. Auflage) als Markdown-Repository: 111 IT-Grundschutz-Bausteine in 10 Baustein-Kategorien sowie einleitende und ergänzende Dokumente. Jede Datei ist ein eigenständiges Dokument; die Übersicht einer Baustein-Kategorie steht in deren `README.md`, die Struktur aller Bausteine in [struktur.md](struktur.md). Die Zuordnung der Anforderungen zu den elementaren Gefährdungen (Kreuzreferenz-Tabelle, KRT) steht am Ende jedes Baustein-Dokuments.
 
+Abgerufen von der offiziellen BSI-Website: [BSI IT-Grundschutz-Kompendium Edition 2023](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html) am 4. November 2026.
+
+Einzelne Teile wurden automatisiert aufgearbeitet, um die Agent-gestützte Analyse und Verarbeitung zu erleichtern.
+Dies betrifft insbesondere die KRT-Tabellen (Kreuzreferenz-Tabellen für elementare Gefährdungen). 
+
 ## Aufbau
 
 ```
@@ -24,7 +29,7 @@ Das IT-Grundschutz-Kompendium des BSI (Edition 2023, 6. Auflage) als Markdown-Re
 ├── iso-zuordnung.md
 ├── isms/  (1 Bausteine, Übersicht: isms/README.md)
 ├── orp/  (5 Bausteine, Übersicht: orp/README.md)
-├── con/  (9 Bausteine, Übersicht: con/README.md)
+├── _con/  (9 Bausteine, Übersicht: _con/README.md)
 ├── ops/  (14 Bausteine, Übersicht: ops/README.md)
 ├── der/  (7 Bausteine, Übersicht: der/README.md)
 ├── app/  (20 Bausteine, Übersicht: app/README.md)
@@ -40,7 +45,7 @@ Das IT-Grundschutz-Kompendium des BSI (Edition 2023, 6. Auflage) als Markdown-Re
 |---|---|---|
 | [ISMS Sicherheitsmanagement](isms/README.md) | 1 | Übersicht über den einzigen IT-Grundschutz-Baustein der Kategorie „ISMS Sicherheitsmanagement“ mit Titel und Verweis auf den Baustein. |
 | [ORP Organisation und Personal](orp/README.md) | 5 | Übersicht über die 5 IT-Grundschutz-Bausteine der Kategorie „ORP Organisation und Personal“ mit Titel und Verweisen auf die einzelnen Bausteine. |
-| [CON Konzepte und Vorgehensweisen](con/README.md) | 9 | Übersicht über die 9 IT-Grundschutz-Bausteine der Kategorie „CON Konzepte und Vorgehensweisen“ mit Titel und Verweisen auf die einzelnen Bausteine. |
+| [CON Konzepte und Vorgehensweisen](_con/README.md) | 9 | Übersicht über die 9 IT-Grundschutz-Bausteine der Kategorie „CON Konzepte und Vorgehensweisen“ mit Titel und Verweisen auf die einzelnen Bausteine. |
 | [OPS Betrieb](ops/README.md) | 14 | Übersicht über die 14 IT-Grundschutz-Bausteine der Kategorie „OPS Betrieb“ mit Titel und Verweisen auf die einzelnen Bausteine. |
 | [DER Detektion und Reaktion](der/README.md) | 7 | Übersicht über die 7 IT-Grundschutz-Bausteine der Kategorie „DER Detektion und Reaktion“ mit Titel und Verweisen auf die einzelnen Bausteine. |
 | [APP Anwendungen](app/README.md) | 20 | Übersicht über die 20 IT-Grundschutz-Bausteine der Kategorie „APP Anwendungen“ mit Titel und Verweisen auf die einzelnen Bausteine. |
