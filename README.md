@@ -9,8 +9,9 @@ Das IT-Grundschutz-Kompendium des BSI (Edition 2023, 6. Auflage) als Markdown-Re
 
 Abgerufen von der offiziellen BSI-Website: [BSI IT-Grundschutz-Kompendium Edition 2023](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/it-grundschutz-kompendium_node.html) am 4. November 2026.
 
-Einzelne Teile wurden automatisiert aufgearbeitet, um die Agent-gestützte Analyse und Verarbeitung zu erleichtern.
+Einzelne Teile wurden automatisiert überarbeitet, um die Agent-gestützte Analyse und Verarbeitung zu erleichtern.
 Dies betrifft insbesondere die KRT-Tabellen (Kreuzreferenz-Tabellen für elementare Gefährdungen). 
+Überwiegend sind die Inhalte unverändert aus den offiziellen Dokumenten extrahiert.
 
 ## Aufbau
 
