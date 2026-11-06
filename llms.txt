@@ -1,0 +1,36 @@
+# IT-Grundschutz-Kompendium (Edition 2023)
+
+> Das IT-Grundschutz-Kompendium des BSI (Edition 2023, 6. Auflage) als Markdown-Repository: 111 IT-Grundschutz-Bausteine in 10 Baustein-Kategorien sowie einleitende und ergänzende Dokumente.
+
+## Einleitung und Grundlagen
+
+- [Vorwort](vorwort.md): Der BSI-IT-Grundschutz leitet aus der Informationssicherheit praktikable Empfehlungen ab und stellt ein Instrumentarium für die Institution bereit.
+- [Neues im IT-Grundschutz-Kompendium](neues-im-kompendium.md): Überblick über die Edition 2023: 111 Bausteine, davon zehn neue, drei entfallene und 21 gegenüber der Edition 2022 überarbeitete IT-Grundschutz-Bausteine.
+- [IT-Grundschutz – Basis für Informationssicherheit](it-grundschutz-basis-fuer-informationssicherheit.md): Bedeutung der Informationssicherheit: Informationen als wesentlicher Wert und Abhängigkeit aller Geschäftsprozesse von einer zuverlässig funktionierenden IT.
+- [Schichtenmodell und Modellierung](schichtenmodell-und-modellierung.md): Nachbildung des Informationsverbunds mit IT-Grundschutz-Bausteinen: Erfassung der Prozesse, Anwendungen, IT-Systeme und relevanten Sicherheitsanforderungen.
+- [Rollen](rollen.md): Erläuterung der Rollen und Verantwortlichkeiten in IT-Grundschutz-Projekten, vom Auditteam und der Bauleitung bis zu den Benutzenden.
+- [Glossar](glossar.md): Erläuterung der wichtigsten Begriffe rund um Informationssicherheit und IT-Grundschutz als gemeinsame Terminologie für das gesamte Kompendium.
+- [Elementare Gefährdungen](elementare-gefaehrdungen.md): Elementare Gefährdungen wie Feuer mit direkten und Folgeschäden an Menschen, Gebäuden und IT als grundlegende Bedrohungsquellen der Informationssicherheit.
+
+## Baustein-Kategorien
+
+- [ISMS Sicherheitsmanagement](isms/README.md): Übersicht über den einzigen IT-Grundschutz-Baustein der Kategorie „ISMS Sicherheitsmanagement“ mit Titel und Verweis auf den Baustein.
+- [ORP Organisation und Personal](orp/README.md): Übersicht über die 5 IT-Grundschutz-Bausteine der Kategorie „ORP Organisation und Personal“ mit Titel und Verweisen auf die einzelnen Bausteine.
+- [CON Konzepte und Vorgehensweisen](con/README.md): Übersicht über die 9 IT-Grundschutz-Bausteine der Kategorie „CON Konzepte und Vorgehensweisen“ mit Titel und Verweisen auf die einzelnen Bausteine.
+- [OPS Betrieb](ops/README.md): Übersicht über die 14 IT-Grundschutz-Bausteine der Kategorie „OPS Betrieb“ mit Titel und Verweisen auf die einzelnen Bausteine.
+- [DER Detektion und Reaktion](der/README.md): Übersicht über die 7 IT-Grundschutz-Bausteine der Kategorie „DER Detektion und Reaktion“ mit Titel und Verweisen auf die einzelnen Bausteine.
+- [APP Anwendungen](app/README.md): Übersicht über die 20 IT-Grundschutz-Bausteine der Kategorie „APP Anwendungen“ mit Titel und Verweisen auf die einzelnen Bausteine.
+- [SYS IT-Systeme](sys/README.md): Übersicht über die 25 IT-Grundschutz-Bausteine der Kategorie „SYS IT-Systeme“ mit Titel und Verweisen auf die einzelnen Bausteine.
+- [IND Industrielle IT](ind/README.md): Übersicht über die 7 IT-Grundschutz-Bausteine der Kategorie „IND Industrielle IT“ mit Titel und Verweisen auf die einzelnen Bausteine.
+- [NET Netze und Kommunikation](net/README.md): Übersicht über die 11 IT-Grundschutz-Bausteine der Kategorie „NET Netze und Kommunikation“ mit Titel und Verweisen auf die einzelnen Bausteine.
+- [INF Infrastruktur](inf/README.md): Übersicht über die 12 IT-Grundschutz-Bausteine der Kategorie „INF Infrastruktur“ mit Titel und Verweisen auf die einzelnen Bausteine.
+
+## Struktur
+
+- [Struktur des IT-Grundschutz-Kompendiums](struktur.md): Systematik des IT-Grundschutz-Kompendiums Edition 2023: die System-Bausteine APP, SYS, IND, NET, INF und die Prozess-Bausteine ISMS, ORP, CON, OPS, DER.
+
+## Änderungen, Korrekturen und Zuordnung
+
+- [Änderungen in der Edition 2023 des IT-Grundschutz-Kompendiums](aenderungen-2023.md): Dokumentiert alle Änderungen der Edition 2023 gegenüber der Edition 2022, Baustein für Baustein, inkl. neuer, entfallener und überarbeiteter Bausteine.
+- [Errata zum IT-Grundschutz-Kompendium Edition 2023](errata-2023.md): Korrigiert Fehler im IT-Grundschutz-Kompendium Edition 2023 (Korrekturstand: 26. März 2026).
+- [Zuordnung ISO/IEC 27001 / 27002 zum IT-Grundschutz](iso-zuordnung.md): Ordnungsmäße Zuordnung zwischen ISO/IEC 27001:2022 (Klauseln 1–10 und Anhang A) und den IT-Grundschutz-Bausteinen.

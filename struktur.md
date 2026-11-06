@@ -1,0 +1,173 @@
+---
+updatedAt: 2026-11-05T11:48:25.000Z
+siteIndex: ./llms.txt
+---
+
+# Struktur des IT-Grundschutz-Kompendiums
+
+Die folgende Struktur entspricht der Systematik des IT-Grundschutz-Kompendiums Edition 2023 (6. Auflage). Die System-Bausteine (APP, SYS, IND, NET, INF) beschreiben die IT-Systeme und ihre Infrastruktur, die Prozess-Bausteine (ISMS, ORP, CON, OPS, DER) beschreiben die sicherheitsbezogenen Prozesse. Jeder Baustein ist ein eigenständiges Dokument; der Link führt zu diesem Dokument, die Übersichtstabelle aller Bausteine eines Teilgebiets steht im jeweiligen Verzeichnis. Anforderungen mit der Kennzeichnung (B) sind Basis-Anforderungen, solche mit (H) sind Hochsicherheits-Anforderungen.
+
+- IT-Grundschutz-Kompendium 2023
+  - System-Bausteine
+    - [APP (Anwendungen)](app/README.md)
+      - APP.1 Client-Anwendungen
+        - [APP.1.1 Office-Produkte](app/app-1-1-office-produkte.md)
+        - [APP.1.2 Web-Browser](app/app-1-2-webbrowser.md)
+        - [APP.1.4 Mobile Anwendungen (Apps)](app/app-1-4-mobile-anwendungen-apps.md)
+      - APP.2 Verzeichnisdienst
+        - [APP.2.1 Allgemeiner Verzeichnisdienst](app/app-2-1-allgemeiner-verzeichnisdienst.md)
+        - [APP.2.2 Active Directory](app/app-2-2-active-directory-domain-services.md)
+        - [APP.2.3 OpenLDAP](app/app-2-3-openldap.md)
+      - APP.3 Netzbasierte Dienste
+        - [APP.3.1 Webanwendungen und Webservices](app/app-3-1-webanwendungen-und-webservices.md)
+        - [APP.3.2 Webserver](app/app-3-2-webserver.md)
+        - [APP.3.3 Fileserver](app/app-3-3-fileserver.md)
+        - [APP.3.4 Samba](app/app-3-4-samba.md)
+        - [APP.3.6 DNS-Server](app/app-3-6-dns-server.md)
+      - APP.4 Business-Anwendungen
+        - [APP.4.2 SAP-ERP-System](app/app-4-2-sap-erp-system.md)
+        - [APP.4.3 Relationale Datenbanksysteme](app/app-4-3-relationale-datenbanken.md)
+        - [APP.4.4 Kubernetes](app/app-4-4-kubernetes.md)
+        - [APP.4.6 SAP ABAP-Programmierung](app/app-4-6-sap-abap-programmierung.md)
+      - APP.5 E-Mail/Groupware/Kommunikation
+        - [APP.5.2 Microsoft Exchange und Outlook](app/app-5-2-microsoft-exchange-und-outlook.md)
+        - [APP.5.3 Allgemeiner E-Mail-Client und -Server](app/app-5-3-allgemeiner-e-mail-client-und-server.md)
+        - [APP.5.4 Unified Communications und Collaboration (UCC)](app/app-5-4-unified-communications-und-collaboration-ucc.md)
+      - [APP.6 Allgemeine Software](app/app-6-allgemeine-software.md)
+      - [APP.7 Entwicklung von individualsoftware](app/app-7-entwicklung-von-individualsoftware.md)
+    - [SYS (IT-Systeme)](sys/README.md)
+      - SYS.1 Server
+        - [SYS.1.1 Allgemeiner Server](sys/sys-1-1-allgemeiner-server.md)
+        - SYS.1.2 Windows-Server
+          - [SYS.1.2.2 Windows Server 2012](sys/sys-1-2-2-windows-server-2012.md)
+          - [SYS.1.2.3 Windows Server](sys/sys-1-2-3-windows-server.md)
+        - [SYS.1.3 Server unter Linux und Unix](sys/sys-1-3-server-unter-linux-und-unix.md)
+        - [SYS.1.5 Virtualisierung](sys/sys-1-5-virtualisierung.md)
+        - [SYS.1.6 Containerisierung](sys/sys-1-6-containerisierung.md)
+        - [SYS.1.7 IBM Z](sys/sys-1-7-ibm-z.md)
+        - [SYS.1.8 Speicherlösungen](sys/sys-1-8-speicherloesungen.md)
+        - [SYS.1.9 Terminalserver](sys/sys-1-9-terminalserver.md)
+      - SYS.2 Desktop-Systeme
+        - [SYS.2.1 Allgemeiner Client](sys/sys-2-1-allgemeiner-client.md)
+        - SYS.2.2 Windows-Clients
+          - [SYS.2.2.3 Clients unter Windows](sys/sys-2-2-3-clients-unter-windows.md)
+        - [SYS.2.3 Clients unter Linux und Unix](sys/sys-2-3-clients-unter-linux-und-unix.md)
+        - [SYS.2.4 Clients unter macOS](sys/sys-2-4-clients-unter-macos.md)
+        - [SYS.2.5 Client-Virtualisierung](sys/sys-2-5-client-virtualisierung.md)
+        - [SYS.2.6 Virtual Desktop Infrastructure](sys/sys-2-6-virtual-desktop-infrastructure.md)
+      - SYS.3 Mobile Devices
+        - [SYS.3.1 Laptops](sys/sys-3-1-laptops.md)
+        - SYS.3.2 Tablet und Smartphone
+          - [SYS.3.2.1 Allgemeine Smartphones und Tablets](sys/sys-3-2-1-allgemeine-smartphones-und-tablets.md)
+          - [SYS.3.2.2 Mobile Device Management (MDM)](sys/sys-3-2-2-mobile-device-management-mdm.md)
+          - [SYS.3.2.3 iOS (for Enterprise)](sys/sys-3-2-3-ios-for-enterprise.md)
+          - [SYS.3.2.4 Android](sys/sys-3-2-4-android.md)
+        - [SYS.3.3 Mobiltelefon](sys/sys-3-3-mobiltelefon.md)
+      - SYS.4 Sonstige Systeme
+        - [SYS.4.1 Drucker, Kopierer und Multifunktionsgeräte](sys/sys-4-1-drucker-kopierer-und-multifunktionsgeraete.md)
+        - [SYS.4.3 Eingebettete Systeme](sys/sys-4-3-eingebettete-systeme.md)
+        - [SYS.4.4 Allgemeines IoT-Gerät](sys/sys-4-4-allgemeines-iot-geraet.md)
+        - [SYS.4.5 Wechseldatenträger](sys/sys-4-5-wechseldatentraeger.md)
+    - [IND (Industrielle IT)](ind/README.md)
+      - [IND.1 Prozessleit- und Automatisierungstechnik](ind/ind-1-prozessleit-und-automatisierungstechnik.md)
+      - IND.2 ICS-Komponenten
+        - [IND.2.1 Allgemeine ICS-Komponente](ind/ind-2-1-allgemeine-ics-komponente.md)
+        - [IND.2.2 Speicherprogrammierbare Steuerung (SPS)](ind/ind-2-2-speicherprogrammierbare-steuerung-sps.md)
+        - [IND.2.3 Sensoren und Aktoren](ind/ind-2-3-sensoren-und-aktoren.md)
+        - [IND.2.4 Maschine](ind/ind-2-4-maschine.md)
+        - [IND.2.7 Safety Instrumented Systems](ind/ind-2-7-safety-instrumented-systems.md)
+      - IND.3 Produktionsnetze
+        - [IND.3.2 Fernwartung im industriellen Umfeld](ind/ind-3-2-fernwartung-im-industriellen-umfeld.md)
+    - [NET (Netze und Kommunikation)](net/README.md)
+      - NET.1 Netze
+        - [NET.1.1 Netzarchitektur  und -design](net/net-1-1-netzarchitektur-und-design.md)
+        - [NET.1.2 Netzmanagement](net/net-1-2-netzmanagement.md)
+      - NET.2 Funknetze
+        - [NET.2.1 WLAN-Betrieb](net/net-2-1-wlan-betrieb.md)
+        - [NET.2.2 WLAN-Nutzung](net/net-2-2-wlan-nutzung.md)
+      - NET.3 Netzkomponenten
+        - [NET.3.1 Router und Switches](net/net-3-1-router-und-switches.md)
+        - [NET.3.2 Firewall](net/net-3-2-firewall.md)
+        - [NET.3.3 VPN](net/net-3-3-vpn.md)
+        - [NET.3.4 Network Access Control](net/net-3-4-network-access-control.md)
+      - NET.4 Telekommunikation
+        - [NET.4.1 TK-Anlagen](net/net-4-1-tk-anlagen.md)
+        - [NET.4.2 VoIP](net/net-4-2-voip.md)
+        - [NET.4.3 Faxgeräte und Faxserver](net/net-4-3-faxgeraete-und-faxserver.md)
+    - [INF (Infrastruktur)](inf/README.md)
+      - [INF.1 Allgemeines Gebäude](inf/inf-1-allgemeines-gebaeude.md)
+      - [INF.2 Rechenzentrum sowie Serverraum](inf/inf-2-rechenzentrum-sowie-serverraum.md)
+      - [INF.5 Raum sowie Schrank für technische Infrastruktur](inf/inf-5-raum-sowie-schrank-fuer-technische-infrastruktur.md)
+      - [INF.6 Datenträgerarchiv](inf/inf-6-datentraegerarchiv.md)
+      - [INF.7 Büroarbeitsplatz](inf/inf-7-bueroarbeitsplatz.md)
+      - [INF.8 Häuslicher Arbeitsplatz](inf/inf-8-haeuslicher-arbeitsplatz.md)
+      - [INF.9 Mobiler Arbeitsplatz](inf/inf-9-mobiler-arbeitsplatz.md)
+      - [INF.10 Besprechungs-, Veranstaltungs-. Schulungsraum](inf/inf-10-besprechungs-veranstaltungs-und-schulungsraeume.md)
+      - [INF.11 Allgemeines Fahrzeug](inf/inf-11-allgemeines-fahrzeug.md)
+      - [INF.12 Verkabelung](inf/inf-12-verkabelung.md)
+      - [INF.13 Technisches Gebäudemanagement](inf/inf-13-technisches-gebaeudemanagement.md)
+      - [INF.14 Gebäudeautomation](inf/inf-14-gebaeudeautomation.md)
+  - Prozess-Bausteine
+    - [ISMS (Sicherheitsmanagement)](isms/README.md)
+      - [ISMS.1 Sicherheitsmanagement](isms/isms-1-sicherheitsmanagement.md)
+    - [ORP (Organisation und Personal)](orp/README.md)
+      - [ORP.1 Organisation](orp/orp-1-organisation.md)
+      - [ORP.2 Personal](orp/orp-2-personal.md)
+      - [ORP.3 Sensibilisierung und Schulung zur Informationssicherheit](orp/orp-3-sensibilisierung-und-schulung-zur-informationssicherheit.md)
+      - [ORP.4 Identitäts- und Berechtigungsmanagement](orp/orp-4-identitaets-und-berechtigungsmanagement.md)
+      - [ORP.5 Compliance Management (Anforderungsmanagement)](orp/orp-5-compliance-management-anforderungsmanagement.md)
+    - [CON (Konzepte und Vorgehensweisen)](con/README.md)
+      - [CON.1 Kryptokonzept](con/con-1-kryptokonzept.md)
+      - [CON.2 Datenschutz](con/con-2-datenschutz.md)
+      - [CON.3 Datensicherungskonzept](con/con-3-datensicherungskonzept.md)
+      - [CON.6 Löschen und Vernichten](con/con-6-loeschen-und-vernichten.md)
+      - [CON.7 Informationssicherheit auf Auslandsreisen](con/con-7-informationssicherheit-auf-auslandsreisen.md)
+      - [CON.8 Software-Entwicklung](con/con-8-software-entwicklung.md)
+      - [CON.9 Informationsaustausch](con/con-9-informationsaustausch.md)
+      - [CON.10 Entwicklung von Webanwendungen](con/con-10-entwicklung-von-webanwendungen.md)
+      - CON.11 Geheimschutz
+        - [CON.11.1 Geheimschutz VS-NUR FÜR DEN DIENSTGEBRAUCH (VS-NfD)](con/con-11-1-geheimschutz-vs-nur-fuer-den-dienstgebrauch-vs-nfd.md)
+    - [OPS (Betrieb)](ops/README.md)
+      - OPS.1 Eigener Betrieb
+        - OPS.1.1 Kern-IT-Betrieb
+          - [OPS.1.1.1 Allgemeiner IT-Betrieb](ops/ops-1-1-1-allgemeiner-it-betrieb.md)
+          - [OPS.1.1.2 Ordnungsgemäße IT-Administration](ops/ops-1-1-2-ordnungsgemaesse-it-administration.md)
+          - [OPS.1.1.3 Patch- und Änderungsmanagement](ops/ops-1-1-3-patch-und-aenderungsmanagement.md)
+          - [OPS.1.1.4 Schutz vor Schadprogrammen](ops/ops-1-1-4-schutz-vor-schadprogrammen.md)
+          - [OPS.1.1.5 Protokollierung](ops/ops-1-1-5-protokollierung.md)
+          - [OPS.1.1.6 Software-Tests und -Freigaben](ops/ops-1-1-6-software-tests-und-freigaben.md)
+          - [OPS.1.1.7 Systemmanagement](ops/ops-1-1-7-systemmanagement.md)
+        - OPS.1.2 Weiterführende Aufgaben
+          - [OPS.1.2.2 Archivierung](ops/ops-1-2-2-archivierung.md)
+          - [OPS.1.2.4 Telearbeit](ops/ops-1-2-4-telearbeit.md)
+          - [OPS.1.2.5 Fernwartung](ops/ops-1-2-5-fernwartung.md)
+          - [OPS.1.2.6 NTP-Zeitsynchronisation](ops/ops-1-2-6-ntp-zeitsynchronisation.md)
+      - OPS.2 Betrieb von Dritten
+        - [OPS.2.2 Cloud-Nutzung](ops/ops-2-2-cloud-nutzung.md)
+        - [OPS.2.3 Nutzung von Outsourcing](ops/ops-2-3-nutzung-von-outsourcing.md)
+      - OPS.3 Betrieb für Dritte
+        - [OPS.3.2 Anbieten von Outsourcing](ops/ops-3-2-anbieten-von-outsourcing.md)
+    - [DER (Detektion & Reaktion)](der/README.md)
+      - [DER.1 Detektion von sicherheitsrelevanten Ereignissen](der/der-1-detektion-von-sicherheitsrelevanten-ereignissen.md)
+      - DER.2 Security Incident Management
+        - [DER.2.1 Behandlung von Sicherheitsvorfällen](der/der-2-1-behandlung-von-sicherheitsvorfaellen.md)
+        - [DER.2.2 Vorsorge für die IT-Forensik](der/der-2-2-vorsorge-fuer-die-it-forensik.md)
+        - [DER.2.3 Bereinigung weitreichender Sicherheitsvorfälle](der/der-2-3-bereinigung-weitreichender-sicherheitsvorfaelle.md)
+      - DER.3 Sicherheitsprüfungen
+        - [DER.3.1 Audits und Revisionen](der/der-3-1-audits-und-revisionen.md)
+        - [DER 3.2 Revisionen auf Basis des Leitfadens IS-Revision](der/der-3-2-revisionen-auf-basis-des-leitfadens-is-revision.md)
+      - [DER.4 Notfallmanagement](der/der-4-notfallmanagement.md)
+
+## Weitere Dokumente des Kompendiums
+
+- [Vorwort](vorwort.md)
+- [Neues im IT-Grundschutz-Kompendium](neues-im-kompendium.md)
+- [IT-Grundschutz – Basis für Informationssicherheit](it-grundschutz-basis-fuer-informationssicherheit.md)
+- [Schichtenmodell und Modellierung](schichtenmodell-und-modellierung.md)
+- [Rollen](rollen.md)
+- [Glossar](glossar.md)
+- [Elementare Gefährdungen](elementare-gefaehrdungen.md)
+- [Änderungen 2023](aenderungen-2023.md)
+- [Errata 2023](errata-2023.md)
+- [Zuordnung ISO und IT-Grundschutz](iso-zuordnung.md)
+- Kreuzreferenz-Tabelle (KRT) — am Ende jedes Baustein-Dokuments im Abschnitt [„Zuordnung zu elementaren Gefährdungen (KRT)"](app/app-1-2-webbrowser.md#zuordnung-zu-elementaren-gefährdungen-krt)
